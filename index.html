@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZ - API</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <section class="titulo">
+            <p class="textTitulo">Conversor de monedas Nacional</p>
+        </section>
+        <!-- Box -->
+        <section class="box">
+            <p class="subtitulo1">Pesos CPL</p>
+            <input type="number" class="monto">
+            <p class="subtitulo1">Moneda a convertir</p>
+            <div class="listado"></div>
+            <button onclick="valida()">Buscar</button>
+            <p class="resultado"></p>
+        </section>
+
+        <!--Grafico -->
+        <section class="grafico">
+            <canvas id="myChart"></canvas>
+        </section>
+
+    </main>
+
+    
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

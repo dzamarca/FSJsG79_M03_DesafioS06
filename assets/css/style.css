@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+main{
+    font-size: 1.2em;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(59, 58, 58);
+    width: 900px;
+    height: 700px;
+}
+.box{
+    margin: 13px;
+    padding: 10px;
+    background-color: darkcyan;
+    height: 250px;
+}
+.textTitulo{
+    font-size: 1.5em;
+    border-bottom: 2px solid darkcyan;
+}
+.subtitulo1{
+    font-size: 1.3em;
+}
+.monto{
+    margin: 5px;
+    padding: 3px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#monedas{
+    margin: 5px;
+    padding: 3px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1em;
+}
+button{
+    margin: 5px;
+    padding: 3px 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: coral;
+    color: #fff;
+
+}
+.resultado{
+    margin: 5px;
+    padding: 3px;
+    font-weight: bold;
+
+}
+.grafico{
+    background-color: #fff;
+    width: 700px;
+}
